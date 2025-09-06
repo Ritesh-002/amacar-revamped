@@ -7,6 +7,8 @@ import WhyChooseAmacar from './components/WhyChooseAmacar/WhyChooseAmacar.jsx'
 import WinWinAmacar from './components/WinWinAmacar/WinWinAmacar.jsx'
 import TwoColumnSection from './components/TwoColumnSection/TwoColumnSection.jsx'
 import TestimonialCarousel from './components/TestimonialCarousel/TestimonialCarousel.jsx'
+import CarFooterSection from './components/CarFooterSection/CarFooterSection.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import './App.css'
 
 function App() {
@@ -23,7 +25,10 @@ function App() {
         <WinWinAmacar />
         <TwoColumnSection />
         <TestimonialCarousel />
+        <CarFooterSection />
       </main>
+
+      <Footer />
     </div>
   )
 }
