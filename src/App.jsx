@@ -1,4 +1,7 @@
 import Header from './components/Header/Header.jsx'
+import Hero from './components/Hero/Hero.jsx'
+import Carousel from './components/Carousel/Carousel.jsx'
+import SectionHeader from './components/SectionHeader/SectionHeader.jsx'
 import './App.css'
 
 function App() {
@@ -6,11 +9,10 @@ function App() {
     <div className="min-h-screen bg-slate-50">
       <Header />
 
-      <main className="pt-24">
-        <section className="max-w-4xl mx-auto px-6 py-20 text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold text-slate-900">Sell your car to multiple dealerships — effortlessly</h1>
-          <p className="mt-4 text-slate-700">Private sellers can auction their cars to a network of trusted dealers. Fast, transparent, and competitive.</p>
-        </section>
+      <main className="pt-0">
+        <Hero />
+        <SectionHeader title="How Amacar works" highlight="Sell smarter, faster" />
+        <Carousel />
       </main>
     </div>
   )
