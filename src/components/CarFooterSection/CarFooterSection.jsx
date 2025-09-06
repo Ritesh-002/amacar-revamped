@@ -84,7 +84,7 @@ export default function CarFooterSection() {
             >
                 {/* Main Heading */}
                 <motion.div variants={itemVariants} className="mb-8">
-                    <h2 className="text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
+                    <h2 className="mt-4 text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
                         Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-red-400 to-yellow-400">Transform</span> Your Car Sale?
                     </h2>
                     <div className="w-32 h-1 bg-gradient-to-r from-blue-400 to-red-400 mx-auto rounded-full" />
