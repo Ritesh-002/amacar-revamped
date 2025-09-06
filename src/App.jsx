@@ -2,6 +2,8 @@ import Header from './components/Header/Header.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import Carousel from './components/Carousel/Carousel.jsx'
 import SectionHeader from './components/SectionHeader/SectionHeader.jsx'
+import HowItWorks from './components/HowItWorks/HowItWorks.jsx'
+import WhyChooseAmacar from './components/WhyChooseAmacar/WhyChooseAmacar.jsx'
 import './App.css'
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
         <Hero />
         <SectionHeader title="How Amacar works" highlight="Sell smarter, faster" />
         <Carousel />
+        <HowItWorks />
+        <WhyChooseAmacar />
       </main>
     </div>
   )

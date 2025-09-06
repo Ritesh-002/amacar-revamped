@@ -103,7 +103,7 @@
 }
 
 .btn-primary {
-    background: var(--brand-blue);
+    background: var(--brand-red);
     color: #fff;
     padding: .7rem 1.05rem;
     border-radius: 999px;
